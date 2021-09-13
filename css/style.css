@@ -1,0 +1,76 @@
+body {
+  overflow-x: hidden;
+  background-image: url('../images/pix2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: #0b0e11 !important;
+  padding: 15px 0 !important;
+  border-bottom: 1px solid #fff !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.form-section {
+  margin-top: 80px;
+  min-height: 70vh;
+}
+
+#form {
+  background: #fff;
+  opacity: 0.85;
+  padding: 30px 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+input {
+  background: #fff !important;
+  opacity: 1 !important;
+  border: 1px solid grey !important;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.data {
+  font-size: 15px !important;
+}
+
+.fa-eye {
+  position: absolute;
+  right: 17%;
+  top: 61%;
+}
+
+.btnReg {
+  background-color: #f9b52d !important;
+  color: #0b0e11 !important;
+}
+
+.footerBottom {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 26px;
+  }
+
+  .register {
+    margin-right: 10px;
+  }
+
+  .copy p {
+    font-size: 12px;
+  }
+}
